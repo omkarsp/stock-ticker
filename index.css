@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.stock-display-container {
+    width: 200px;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    background-color: white;
+}
+
+img {
+    display: inline-block;
+    max-width: 15px;
+    margin-left: 5px;
+}
+
+.triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 8px;
+}
+
+.up{
+    border-bottom:13px solid green;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.down{
+    border-top: 13px solid red;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.right{
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-left: 13px solid gray;
+}
